@@ -22,7 +22,7 @@ const ProductEdit = () => {
         placement: 'topRight',
       });
 
-      // Notification দেখানোর পর 0.5 সেকেন্ড delay দিয়ে navigate
+      // Notification দেখানোর পর 0.5 সেকেন্ড delay দিয়ে navigate 
       setTimeout(() => {
         navigate('/products');
       }, 500);

@@ -19,11 +19,11 @@ const ProductList = () => {
   const columns = [
     {
       title: 'Image',
-      dataIndex: 'thumbnail', // Ensure the thumbnail key exists in the data
+      dataIndex: 'thumbnail', 
       render: (src, record) => (
         <div
           style={{ cursor: 'pointer' }}
-          onClick={() => navigate(`/products/${record.id}`)} // Navigate to the product details page
+          onClick={() => navigate(`/products/${record.id}`)} // Navigate to 
         >
           <Image
             width={60}
